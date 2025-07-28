@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ul id="productos">
+        <li>
+            <h3>Camisa</h3>
+            <p>Precio: 20€</p>
+            <button class="agregar" data-id="1">Agregar</button>
+        </li>
+        <li>
+            <h3>Pantalón</h3>
+            <p>Precio: 30€</p>
+            <button class="agregar" data-id="2">Agregar</button>
+        </li>
+        <li>
+            <h3>Zapatos</h3>
+            <p>Precio: 50€</p>
+            <button class="agregar" data-id="3">Agregar</button>
+        </li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="carrito">
+            <!-- Aquí se insertarán las filas -->
+        </tbody>
+    </table>
+
+    <script src="carrito.js"></script>
+</body>
+</html>
